@@ -199,6 +199,7 @@ module ::OmniAuth
         prune!(
           name: data_source["name"],
           email: data_source["email"],
+          pronouns: data_source["pronouns"],
           first_name: data_source["given_name"],
           last_name: data_source["family_name"],
           nickname: data_source["preferred_username"],
